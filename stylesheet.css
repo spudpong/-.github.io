@@ -48,8 +48,8 @@ body {
     margin-right: 10px;
   }
   
-  .twitter {
-    background-color: #55acee;
+  .instragram {
+    background-color: #DD2A7B;
   }
   
   .btn {
@@ -88,12 +88,12 @@ body {
   
   .header-right {
     float: right;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(196, 30, 30, 0.616);
     transition: all 0.5s;
   }
   
   .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(231, 109, 109, 0.664);
   }
   
   .header-right a {
@@ -179,3 +179,4 @@ body {
   footer {
     padding-top: 30px;
   }
+  
