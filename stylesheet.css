@@ -89,16 +89,20 @@ float: left;
 .header-list {
 list-style: none;
 padding: 0 25px;
-float: left;
-color: white;
 display: block;
 transition: all 0.5s;
 line-height: 65px;
 }
   
+.header-list li{
+  float: left;
+  color: white;
+  padding: 33px 20px;
+}
 .header-list :hover {
 background-color: rgba(175, 116, 202, 0.664);
   }
+  
   
 .lesson-wrapper {
 height: 500px;
