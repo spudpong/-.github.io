@@ -7,176 +7,173 @@ body {
     text-decoration: none;
   }
   
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://images.app.goo.gl/X2c6CxFdqPkxsW2f7);
-    background-size: cover;
-    color: white;
-    text-align: center;
+.top-wrapper {
+padding: 180px 0 100px 0;
+background-image: url(https://images.app.goo.gl/X2c6CxFdqPkxsW2f7);
+background-size: cover;
+color: white;
+text-align: center;
   }
   
-  .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+.container {
+width: 1170px;
+padding: 0 15px;
+margin: 0 auto;
   }
   
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
+.top-wrapper h1 {
+opacity: 0.7;
+font-size: 45px;
+letter-spacing: 5px;
   }
   
-  .top-wrapper p {
-    opacity: 0.7;
+.top-wrapper p {
+opacity: 0.7;
   }
   
-  .btn-wrapper {
-    margin: 20px 0;
+.btn-wrapper {
+margin: 20px 0;
   }
   
-  .btn-wrapper p {
-    margin: 10px 0;
+.btn-wrapper p {
+margin: 10px 0;
   }
   
-  .signup {
-    background-color: #239b76;
+.signup {
+background-color: #239b76;
   }
   
-  .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
+.facebook {
+background-color: #3b5998;
+margin-right: 10px;
   }
   
-  .instragram {
-    background-color: #DD2A7B;
+.instragram {
+background-color: #DD2A7B;
   }
   
-  .btn {
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
+.btn {
+padding: 8px 24px;
+color: white;
+display: inline-block;
+opacity: 0.8;
+border-radius: 4px;
   }
   
-  .btn:hover {
-    opacity: 1;
+.btn:hover {
+opacity: 1;
   }
   
-  .fa {
-    margin-right: 5px;
+.fa {
+margin-right: 5px;
   }
   
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
+.header {
+height: 65px;
+width: 100%;
+background-color: rgba(34, 49, 52, 0.9);
+position :fixed;
+top: 0;
+z-index: 10;
   }
   
-  .logo {
-    width: 124px;
-    margin-top: 20px;
+.logo {
+width: 124px;
+margin-top: 20px;
   }
   
-  .header-left {
-    float: left;
+.header-left {
+float: left;
+  }
+
+.header-list {
+list-style: none;
+padding: 0 25px;
+float: left;
+color: white;
+display: block;
+transition: all 0.5s;
+line-height: 65px;
+}
+  
+.header-list :hover {
+background-color: rgba(175, 116, 202, 0.664);
   }
   
-  .header-right {
-    float: right;
-    background-color: rgba(196, 30, 30, 0.616);
-    transition: all 0.5s;
+.lesson-wrapper {
+height: 500px;
+padding-bottom: 80px;
+background-color: #f7f7f7;
+text-align: center;
   }
   
-  .header-right:hover {
-    background-color: rgba(231, 109, 109, 0.664);
+.heading {
+padding-top: 60px;
+padding-bottom: 30px;
+color: #5f5d60;
   }
   
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
+.heading h2 {
+font-weight: normal;
   }
   
-  .lesson-wrapper {
-    height: 500px;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
-    text-align: center;
+.lesson {
+float: left;
+width: 25%;
   }
   
-  .heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #5f5d60;
+.lesson-icon {
+position: relative;
   }
   
-  .heading h2 {
-    font-weight: normal;
+.lesson-icon p {
+position: absolute;
+top: 90px;
+width: 100%;
+color: white;
   }
   
-  .lesson {
-    float: left;
-    width: 25%;
+.txt-contents {
+width: 80%;
+display: inline-block;
+margin-top: 20px;
+font-size: 12px;
+color: #2f2d30;
   }
   
-  .lesson-icon {
-    position: relative;
+.heading h3 {
+font-weight: normal;
   }
   
-  .lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
+.message-wrapper {
+border-bottom: 1px solid #eee;
+padding-bottom: 80px;
+text-align: center;
   }
   
-  .txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 12px;
-    color: #b3aeb5;
+.message {
+padding: 15px 40px;
+background-color: #5dca88;
+cursor: pointer;
+ box-shadow: 0 7px #1a7940;
   }
   
-  .heading h3 {
-    font-weight: normal;
+.message:active {
+position: relative;
+top: 7px;
+box-shadow: none;
   }
   
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-  }
-  
-  .message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-  }
-  
-  .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
-  
-  footer img {
+.footer img {
     width: 125px;
   }
   
-  footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+.footer p {
+color: #b3aeb5;
+font-size: 12px;
   }
   
-  footer {
-    padding-top: 30px;
+.footer {
+padding-top: 30px;
   }
   
