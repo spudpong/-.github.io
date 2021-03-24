@@ -27,7 +27,7 @@ letter-spacing: 5px;
   }
   
 .top-wrapper p {
-  
+
   }
   
 .btn-wrapper {
@@ -90,13 +90,13 @@ list-style: none;
 padding: 0 25px;
 display: block;
 transition: all 0.5s;
-line-height: 40px;
+line-height: 65px;
 }
   
 .header-list li{
   float: left;
   color: white;
-  padding: 33px 20px;
+  padding: 25px 20px;
 }
 .header-list :hover {
 background-color: rgba(175, 116, 202, 0.664);
@@ -153,11 +153,11 @@ padding-bottom: 80px;
 text-align: center;
   }
   
-.message {
+.btn-message {
 padding: 15px 40px;
-background-color: #5dca88;
+background-color: #C70039;
 cursor: pointer;
-box-shadow: 0 7px #1a7940;
+box-shadow: 0 7px #900C3F;
   }
   
 .message:active {
