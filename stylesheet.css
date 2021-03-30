@@ -131,7 +131,7 @@ width: 25%;
   }
   
 .lesson-icon {
-position: relative;
+position: absolute;
   }
   
 .lesson-icon p {
