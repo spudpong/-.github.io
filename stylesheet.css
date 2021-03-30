@@ -11,7 +11,6 @@ body {
 padding: 180px 0 100px 0;
 background-image: url(http://studentexchange.vn/wp-content/uploads/2017/06/internship-in-Vietnam-APU5.jpg);
 background-size: cover;
-color: white;
 text-align: center;
   }
   
@@ -24,6 +23,7 @@ margin: 0 auto;
 .top-wrapper h1 {
 font-size: 45px;
 letter-spacing: 5px;
+color: white;
   }
   
 .top-wrapper p {
@@ -95,6 +95,7 @@ padding: 0 25px;
 display: block;
 transition: all 0.5s;
 line-height: 65px;
+color: white;
 }
   
 .header-list li{
@@ -103,7 +104,7 @@ line-height: 65px;
   padding: 25px 20px;
 }
 .header-list :hover {
-background-color:#b94136 ;
+background-color:#d87a71 ;
   }
   
 .lesson-wrapper {
