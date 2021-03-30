@@ -103,6 +103,7 @@ background-color: rgba(175, 116, 202, 0.664);
   }
   
 .lesson-wrapper {
+align-content: center;
 height: 500px;
 padding-bottom: 80px;
 background-color: #f7f7f7;
