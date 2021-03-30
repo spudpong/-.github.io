@@ -71,10 +71,6 @@ margin-right: 5px;
 height: 80px;
     background: #ae003a;
     width: 100%;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     padding: 40px 20px 0 20px;
     position: relative;
     z-index: 10000;
@@ -83,9 +79,10 @@ height: 80px;
     left: 0;
 }
   
-.logo {
+.main-logo {
 width: 124px;
 margin-top: 20px;
+float: left;
   }
   
 .header-left {
@@ -106,7 +103,7 @@ line-height: 65px;
   padding: 25px 20px;
 }
 .header-list :hover {
-background-color: rgba(175, 116, 202, 0.664);
+background-color:#b94136 ;
   }
   
 .lesson-wrapper {
