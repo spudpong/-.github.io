@@ -12,6 +12,7 @@ padding: 180px 0 100px 0;
 background-image: url(http://studentexchange.vn/wp-content/uploads/2017/06/internship-in-Vietnam-APU5.jpg);
 background-size: cover;
 text-align: center;
+opacity: 55%;
   }
   
 .container {
@@ -23,12 +24,13 @@ margin: 0 auto;
 .top-wrapper h1 {
 font-size: 45px;
 letter-spacing: 5px;
-color: white;
+color: black;
   }
-  
 .top-wrapper p {
-
-  }
+    font-size: 20px;
+    letter-spacing: 5px;
+    color:black;
+      }
   
 .btn-wrapper {
 margin: 20px 0;
@@ -38,9 +40,6 @@ margin: 20px 0;
 margin: 10px 0;
   }
   
-.signup {
-background-color: #239b76;
-  }
   
 .facebook {
 background-color: #3b5998;
@@ -70,7 +69,6 @@ margin-right: 5px;
   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34,49,52,0.9);
     position :fixed;
     top: 0;
     z-index: 10;
@@ -91,8 +89,8 @@ list-style: none;
 padding: 0 25px;
 display: block;
 transition: all 0.5s;
-line-height: 65px;
 color: white;
+height: 30px;
 }
   
 .header-list li{
@@ -129,6 +127,10 @@ width: 25%;
   
 .lesson-icon {
 position: relative;
+width: 150px;
+height: 70px;
+padding: 10px 10px;
+margin-block: 10px;
   }
   
 .lesson-icon p {
@@ -138,6 +140,13 @@ top: 90px;
 width: 100%;
 color:#2f2d30;
   }
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 15px 30px;
+  margin: 10px 40px;
+}
   
 .txt-contents {
 width: 80%;
@@ -164,17 +173,20 @@ top: 7px;
 box-shadow: none;
   }
   
-.footer img {
-    width: 100px;
-    align-content: space-between;
+footer img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
   }
   
-.footer h1 {
+footer h1 {
 color: #b3aeb5;
 font-size: 12px;
   }
   
-.footer {
+footer {
 padding-top: 30px;
   }
   
